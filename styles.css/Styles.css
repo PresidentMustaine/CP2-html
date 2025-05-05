@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #1c0101;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a, nav button {
+    margin: 0 0.5rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro img {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.galeria div {
+    text-align: center;
+}
+
+.galeria img {
+    width: 150px;
+    height: auto;
+}
+
+.promocoes {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.promocoes img {
+    width: 200px;
+    display: block;
+    margin: 1rem 0;
+}
+
+.cta {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.outros img {
+    width: 300px;
+    margin: 1rem 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.cards div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+}
+
+footer {
+    background: whitesmoke;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer .links {
+    margin-top: 1rem;
+}
